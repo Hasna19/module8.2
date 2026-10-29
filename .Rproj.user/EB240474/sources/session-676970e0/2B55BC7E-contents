@@ -190,7 +190,7 @@ __If the code does build properly__:
 
 Both *User A* and *User B* should now ensure their local main branch is up to date.
 
-- E.g., both users could use `git fetch origin`, `git checkout main`, `git merge origin/main`
+- E.g., both users could use `c`, `git checkout main`, `git merge origin/main`
 - Or more simply, both users could use `git pull origin main`
 - These commands should not do anything for *User B*, since they had already merged `devel-titles` into `main` in the above steps.
 - These commands __should do something__ for *User A*, since they had not updated their `main` branch with the changes on the `devel-titles` branch.
